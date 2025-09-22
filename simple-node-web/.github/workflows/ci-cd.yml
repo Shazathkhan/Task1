@@ -1,0 +1,7 @@
+name: CI / Build / Push / Deploy
+
+on:
+  push:
+    branches: [ main ]        # Runs workflow when you push to main branch
+  pull_request:
+    branches: [ main ]        # Runs workflow on PR to main
